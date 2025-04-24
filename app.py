@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 import gdown
 
-MODEL_URL = 'https://drive.google.com/uc?export=download&id=182udCUHZRIfGdG7YMoIJ8OROdocFVPFC'
+MODEL_URL = 'https://drive.google.com/uc?id=182udCUHZRIfGdG7YMoIJ8OROdocFVPFC'
 MODEL_PATH = 'random_forest_model.pkl'
 
 if not os.path.exists(MODEL_PATH):
