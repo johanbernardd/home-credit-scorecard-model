@@ -15,6 +15,9 @@ if not os.path.exists(MODEL_PATH):
 model = joblib.load(MODEL_PATH)
 encoders = joblib.load('label_encoders.pkl')
 
+st.write("Model file exists?", os.path.exists(MODEL_PATH))
+st.write("Model file size:", os.path.getsize(MODEL_PATH) if os.path.exists(MODEL_PATH) else "Not found")
+
 st.title("Home Credit Scorecard Model's App")
 st.write("Author: Johanes Paulus Bernard Purek")
 st.write("Fill in the client's information below to predict loan repayment risk.")
