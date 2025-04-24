@@ -1,16 +1,18 @@
-
 import os
 import urllib.request
 import streamlit as st
 import pandas as pd
 import joblib
+import gdown
 
 MODEL_URL = 'https://drive.google.com/uc?export=download&id=182udCUHZRIfGdG7YMoIJ8OROdocFVPFC'
-if not os.path.exists('random_forest_model.pkl'):
-    urllib.request.urlretrieve(MODEL_URL, 'random_forest_model.pkl')
+MODEL_PATH = 'random_forest_model.pkl'
+
+if not os.path.exists(MODEL_PATH):
+    gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
 
 # Load model and encoders
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load(MODEL_PATH)
 encoders = joblib.load('label_encoders.pkl')
 
 st.title("Home Credit Scorecard Model's App")
