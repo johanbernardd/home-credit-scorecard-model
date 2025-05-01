@@ -40,7 +40,7 @@ The dataset consists of 307,511 loan applications with 122 original features. Af
 
 ---
 
-## ⚙️ Approach
+## ⚙ Approach
 
 This project followed an end-to-end data science pipeline as illustrated below:
 
@@ -85,17 +85,17 @@ This project followed an end-to-end data science pipeline as illustrated below:
 ## 📸 Visualizations
 
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(No Difficulties)
-  <img src="Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png" alt="Demo Video" /> (images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png)
+>  <img src="images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png"/>
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(Have Difficulties)
-> *(You can embed sample images here if desired)*
+> <img src="images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(Yes).png"/>
 - Column Chart showing Number of Clients Repayment Abilities By Educational Type
-> *(You can embed sample images here if desired)*
+> <img src="images/Bivariate Analysis_Number of Clients Repayment Abilities By Educational Type.png"/>
 - CatPlot showing multivariate analysis between Income Type, Amount Credit of Loan, Target, and Contract Type
-> *(You can embed sample images here if desired)*
+> <img src="images/Multivariate Analysis_Income Type, Amount Credit of Loan, Target, and Contract Type.png"/>
 - Feature importance rankings
-> *(You can embed sample images here if desired)*
+> <img src="images/Feature Importance Rankings.png"/>
 - Model prediction summary
-> *(You can embed sample images here if desired)*
+> <img src="images/Model Prediction Summary.png"/>
 
 ---
 
@@ -108,7 +108,7 @@ This project followed an end-to-end data science pipeline as illustrated below:
 - Streamlit
 ---
 
-## ⚙️ Setup Instructions
+## ⚙ Setup Instructions
 
 1. Clone the repository:
      For the updated notebook, use this [Colab Notebook](https://colab.research.google.com/drive/19q-9IvkgemOsgGdQFgpDMoDtr9ritpkB?usp=sharing)
@@ -122,8 +122,8 @@ This project followed an end-to-end data science pipeline as illustrated below:
    streamlit run app.py
 
 ## 📌 Project Status
-✅ Completed
-📈 Final model: Random Forest with 20 selected features and balanced dataset using resampling
+✅ Completed  
+📈 Final model: Random Forest with 20 selected features and balanced dataset using resampling  
 🧪 Evaluated on an unseen test set with high ROC-AUC and generalization
 
 ## 💯 Credits
