@@ -85,7 +85,7 @@ This project followed an end-to-end data science pipeline as illustrated below:
 ## 📸 Visualizations
 
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(No Difficulties)
-![Picture](images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png)
+  <img src="Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png" alt="Demo Video" /> (images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png)
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(Have Difficulties)
 > *(You can embed sample images here if desired)*
 - Column Chart showing Number of Clients Repayment Abilities By Educational Type
