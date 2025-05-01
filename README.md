@@ -14,18 +14,18 @@ This project represents my first attempt at using Streamlit to deploy a machine 
 ---
 
 ## 📑 Table of Contents
-- [Business Understanding](#business-understanding)
-- [Data Understanding](#data-understanding)
-- [Approach](#approach)
-- [Visualizations](#visualizations)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Project Status](#project-status)
-- [Credits](#credits)
+- [Business Understanding](#-business-understanding)
+- [Data Understanding](#-data-understanding)
+- [Approach](#-approach)
+- [Visualizations](#-visualizations)
+- [Technologies Used](#-technologies-used)
+- [Setup Instructions](#-setup-instructions)
+- [Project Status](#-project-status)
+- [Credits](#-credits)
 
 ---
 
-## 🧠 Business Understanding (#business-understanding)
+## 🧠 Business Understanding
 
 Many individuals in Indonesia face difficulty obtaining loans due to limited or no credit history. This project helps Home Credit Indonesia assess the creditworthiness of such clients using machine learning rather than traditional scoring, ensuring that those with the ability to repay are not unjustly rejected. The goal is to deliver safer, smarter lending opportunities and provide a structured repayment framework for customer success.
 
@@ -85,7 +85,7 @@ This project followed an end-to-end data science pipeline as illustrated below:
 ## 📸 Visualizations
 
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(No Difficulties)
-> *(You can embed sample images here if desired)*
+![Picture](images/Bivariate Analysis_Number of Clients Repayment Abilities By Age Interval(No).png)
 - Histogram showing Number of Clients Repayment Abilities By Age Interval(Have Difficulties)
 > *(You can embed sample images here if desired)*
 - Column Chart showing Number of Clients Repayment Abilities By Educational Type
@@ -121,11 +121,11 @@ This project followed an end-to-end data science pipeline as illustrated below:
    ```bash
    streamlit run app.py
 
-📌 Project Status
+## 📌 Project Status
 ✅ Completed
 📈 Final model: Random Forest with 20 selected features and balanced dataset using resampling
 🧪 Evaluated on an unseen test set with high ROC-AUC and generalization
 
-🙏 Credits
+## 💯 Credits
 - Home Credit Indonesia for the dataset and case study
 - Rakamin Academy for facilitating the project
